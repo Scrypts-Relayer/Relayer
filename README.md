@@ -14,21 +14,21 @@ The V1 questing platform consists of a smart contract on Ethereum, plus a web cl
 The smart contract has multiple responsibilities and acts as the mechanism of exchange as well as the main data store.
 
 Key Functions
--Quest creation
--Escrow functions (holding creator’s prize in escrow)
--Quest Cancelation (owner only)
--Swapping functions (swapping prize and requirements upon completion)
--Balance Checking (check if users are true owners of submitted prizes and requirements)
+1. Quest creation
+2. Escrow functions (holding creator’s prize in escrow)
+3. Quest Cancelation (owner only)
+4. Swapping functions (swapping prize and requirements upon completion)
+5. Balance Checking (check if users are true owners of submitted prizes and requirements)
 
 #### Web Client
 The web client provides a portal and experience around the Scrypts contract. The client is built primarily using React, the OpenSea API, and Web3.js. 
 
 Key Functions
--Display quests for users 
--Display live balances
--Allow users to complete quest 
--Allow users to create quests
--Allow quest creators to cancel quests
+1. Display quests for users 
+2. Display live balances
+3. Allow users to complete quest 
+4. Allow users to create quests
+5. Allow quest creators to cancel quests
 
 ## V2 Technical Specification 
 
